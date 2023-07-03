@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+</head>
+<body>
+    <h1>Cadastrar Produto</h1>
+    <section>
+        <form action="#" method="POST">
+            <label for="produto">Produto:</label>
+            <input type="text" name="produto" id="produto" required>
+
+            <label for="id">ID:</label>
+            <input type="text" name="id" id="id" max="5" required placeholder="Apenas números">
+
+            <label for="preco">Preço:</label>
+            <input type="number" name="preco" id="preco" required>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" name="quantidade" id="quantidade">
+            
+            <input type="submit" value="Finalizar" id="finalizar">
+            <a href="index.html">Voltar</a>
+        </form>
+    </section>
+</body>
+</html>
